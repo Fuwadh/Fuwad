@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class MyhomeLogin {
     public static void main(String[] args) throws InterruptedException {
 
-        // Locators
+        // Locators  
         By cookiePopUpLocator =  By.xpath("//*[@id=\"onetrust-accept-btn-handler\"]");
         By logInDropDown = By.xpath("/html/body/app-root/div/header/app-header-container/app-desktop-header/div/nav/div[2]/div[1]");
         By loginLinkLocator = By.xpath("//*[@id=\"sel_sign_in_nav_link\"]/span");
